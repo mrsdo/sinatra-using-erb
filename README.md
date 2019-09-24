@@ -59,7 +59,9 @@ Scripting tags open with `<%` and close with `%>`. They evaluate –– but do n
 <% end %>
 ```
 
-As you can see, only the second `<p>` tag was sent to the browser. This example is a bit silly, because 1 will never be equal to 2. However, imagine that you work at Facebook and that you have a method called `logged_in?` that returns `true` if a user is logged in and `false` if they're not. You could then show different content based on whether or not a user is logged in.
+As you can see, only the second `<p>` tag was sent to the browser. This example is a bit silly, because 1 will never be equal to 2. 
+
+However, imagine that you work at Facebook and that you have a method called `logged_in?` that returns `true` if a user is logged in and `false` if they're not. You could then show different content based on whether or not a user is logged in. The following is an example of what this code may look like:
 
 ```erb
 <% if logged_in? %>
@@ -68,6 +70,8 @@ As you can see, only the second `<p>` tag was sent to the browser. This example 
   <a href="/login">Click here to Log In</a>
 <% end %>
 ```
+
+**Note:** This code is not part of the codealong, you will receive a `NoMethodError`.
 
 ### Iteration
 
