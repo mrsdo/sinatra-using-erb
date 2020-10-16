@@ -131,4 +131,3 @@ This should display:
 [An Introduction to ERB Templating - Stuart Ellis](http://www.stuartellis.eu/articles/erb/)
 [A cheatsheet on choosing ERB tags](https://medium.com/swlh/cheatsheet-which-erb-tag-should-i-use-4b3de261f15f)
 
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/sinatra-using-erb' title='Sinatra Views: Using ERB'>Sinatra Views: Using ERB</a> on Learn.co and start learning to code for free.</p>
